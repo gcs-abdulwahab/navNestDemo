@@ -4,7 +4,7 @@ export class Department {
   id: number;
   name: string;
   description?: string;
-  //users?: User[];
+  users?: User[];
   createdAt?: Date;
   updatedAt?: Date;
 

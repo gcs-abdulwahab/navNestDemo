@@ -10,7 +10,7 @@ export class User {
   role: string;
 
   departmentId: number;
-  //department?:Department;
+  department?:Department;
 
   createdAt?: Date;
   updatedAt?: Date;
